@@ -29,6 +29,10 @@ Este é o backend de autenticação da aplicação **Movies Reviews**, responsá
    ```bash
     uvicorn app.main:app --reload
 
+###📌 Observações
+Este backend é responsável apenas pelo gerenciamento de usuários (cadastro, login e autenticação).
+
+A autenticação gera um token JWT que é utilizado pelo outro serviço (Movies Rating) para autorizar as ações do usuário.
 
 ## 📂 Estrutura do Projeto
    ```bash
@@ -37,10 +41,3 @@ Este é o backend de autenticação da aplicação **Movies Reviews**, responsá
    ├── models.py       # Modelos Pydantic
    ├── routes.py       # Rotas de autenticação
    └── auth.py         # Lógica de autenticação com JWT
-
-
-
-###📌 Observações
-Este backend é responsável apenas pelo gerenciamento de usuários (cadastro, login e autenticação).
-
-A autenticação gera um token JWT que é utilizado pelo outro serviço (Movies Rating) para autorizar as ações do usuário.
