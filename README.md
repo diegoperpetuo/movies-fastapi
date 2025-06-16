@@ -1,10 +1,10 @@
 # 🎬 Movies FASTAPI - Autenticação de Usuários
 
 ### Membros:
--> Danilo Santana
--> Diego Perpétuo
--> Luccas Pino
--> Milton Kiefer
+- Danilo Santana
+- Diego Perpétuo
+- Luccas Pino
+- Milton Kiefer
 
 Este é o backend de autenticação da aplicação **Movies Reviews**, responsável pelo cadastro e login de usuários. Desenvolvido em **Python** com **FastAPI**, este serviço fornece autenticação via JWT que será utilizada por outros serviços, como o sistema de avaliações de filmes.
 
