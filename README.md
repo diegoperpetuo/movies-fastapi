@@ -31,11 +31,12 @@ Este é o backend de autenticação da aplicação **Movies Reviews**, responsá
 
 
 ##📂 Estrutura do Projeto
-  app/
-  ├── main.py         # Ponto de entrada da aplicação
-  ├── models.py       # Modelos Pydantic
-  ├── routes.py       # Rotas de autenticação
-  └── auth.py         # Lógica de autenticação com JWT
+
+app/
+├── main.py         # Ponto de entrada da aplicação
+├── models.py       # Modelos Pydantic
+├── routes.py       # Rotas de autenticação
+└── auth.py         # Lógica de autenticação com JWT
 
   
 ###📌 Observações
