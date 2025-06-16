@@ -29,7 +29,7 @@ Este é o backend de autenticação da aplicação **Movies Reviews**, responsá
    ```bash
     uvicorn app.main:app --reload
 
-###📌 Observações
+### 📌 Observações
 Este backend é responsável apenas pelo gerenciamento de usuários (cadastro, login e autenticação).
 
 A autenticação gera um token JWT que é utilizado pelo outro serviço (Movies Rating) para autorizar as ações do usuário.
